@@ -15,10 +15,10 @@
 // 返回值：3
 
 void main() {
-  // print(min([3, 100, 200, 3]));
-  // print(min([3, 4, 5, 1, 2]));
-  // print(min([5, 6, 7, 1, 2, 3, 4]));
-  // print(min([3, 4, 5, 6, 1, 1, 2, 3]));
+  print(min([3, 100, 200, 3]));
+  print(min([3, 4, 5, 1, 2]));
+  print(min([5, 6, 7, 1, 2, 3, 4]));
+  print(min([3, 4, 5, 6, 1, 1, 2, 3]));
 }
 
 int min(List<int> nums) {
