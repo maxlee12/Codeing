@@ -5,8 +5,13 @@
 * */
 
 // 给定一个二叉树的根节点 root ，返回 它的 中序 遍历 。
-//输入：root = [1,null,2,3]
-//输出：[1,3,2]
+//  1
+// /
+// 2     -> [2,3,1]
+//  \
+//   3
+
+
 void main() {
   TreeNode node1 = TreeNode(1, l:TreeNode(4), r:TreeNode(2, l:TreeNode(3)));
   TreeNode node2 = TreeNode(1, l:TreeNode(2), r:TreeNode(3));
